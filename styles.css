@@ -75,3 +75,36 @@ input {
     width: 220px;
     height: 1.8rem;
 }
+
+input:focus {
+
+}
+
+.create-acc, .bottom-text {
+    margin: 50px;
+}
+
+.create-acc {
+    border-radius: 8px;
+    border-style: none;
+    height: 70px;
+    width: 250px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #596D48;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-acc:hover {
+    background-color: #799462;
+}
+
+.bottom-text {
+    font-size: 1.7rem;
+}
+
+.bottom-text a {
+    text-decoration: none;
+    color: #596D48;
+}
