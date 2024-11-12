@@ -77,7 +77,12 @@ input {
 }
 
 input:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
+input:invalid:focus {
+    border: 1px solid red;
 }
 
 .create-acc, .bottom-text {
@@ -107,4 +112,8 @@ input:focus {
 .bottom-text a {
     text-decoration: none;
     color: #596D48;
+}
+
+.bottom-text a:hover {
+    text-decoration: underline;
 }
